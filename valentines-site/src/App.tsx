@@ -8,14 +8,14 @@ function App() {
     <div className="container">
       {page === 1 && (
         <div className="page">
-          <h1>Hi love 💖</h1>
+          <h1>Hi!</h1>
           <button onClick={() => setPage(2)}>Open</button>
         </div>
       )}
 
       {page === 2 && (
         <div className="page">
-          <h1>Before anything else...</h1>
+          <h1>Thank you for being my friend for so long</h1>
           <p>You mean so much to me.</p>
           <button onClick={() => setPage(3)}>Continue</button>
         </div>
@@ -25,7 +25,7 @@ function App() {
         <div className="page">
           <h1>Happy Valentine’s Day ❤️</h1>
           <p>
-            Thank you for being my peace, my happiness, and my home.
+            Thank you for being my makulit na friend all the time.
           </p>
         </div>
       )}
