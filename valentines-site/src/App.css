@@ -26,7 +26,7 @@
 .page p {
   color: #555;
   font-size: 1.15em;
-  margin: 1.5em 0;
+  margin: 1.5em auto;
 }
 
 button {

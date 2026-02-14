@@ -8,25 +8,63 @@ function App() {
     <div className="container">
       {page === 1 && (
         <div className="page">
-          <h1>Hi!</h1>
+          <h1>Yooooooo!</h1>
           <button onClick={() => setPage(2)}>Open</button>
         </div>
       )}
 
       {page === 2 && (
         <div className="page">
-          <h1>Thank you for being my friend for so long</h1>
-          <p>You mean so much to me.</p>
+          <h1>I know madalas masama ako sayo</h1>
           <button onClick={() => setPage(3)}>Continue</button>
         </div>
       )}
 
       {page === 3 && (
         <div className="page">
-          <h1>Happy Valentine’s Day ❤️</h1>
-          <p>
-            Thank you for being my makulit na friend all the time.
-          </p>
+          <h1>To the point na visible na sayo sungay ko</h1>
+          <button onClick={() => setPage(4)}>Continue</button>
+        </div>
+      )}
+
+      {page === 4 && (
+        <div className="page">
+          <h1>And alam ko most of the time BI ako sayo</h1>
+          <button onClick={() => setPage(5)}>Continue</button>
+        </div>
+      )}
+
+      {page === 4 && (
+        <div className="page">
+          <h1>i just want to tell you...</h1>
+          <button onClick={() => setPage(5)}>Continue</button>
+        </div>
+      )}
+
+      {page === 4 && (
+        <div className="page">
+          <h1>Wala akong balak mag bago BWHAHAHAHAHA</h1>
+          <button onClick={() => setPage(5)}>Continue</button>
+        </div>
+      )}
+
+      {page === 5 && (
+        <div className="page">
+          <h1>Thank you for being my friend for so long</h1>
+          <button onClick={() => setPage(6)}>Continue</button>
+        </div>
+      )}
+
+      {page === 5 && (
+        <div className="page">
+          <h1>I do really appreciate you a lot</h1>
+          <button onClick={() => setPage(6)}>Continue</button>
+        </div>
+      )}
+
+      {page === 6 && (
+        <div className="page">
+          <h1>Happy Valentine’s Day Shaina!❤️</h1>
         </div>
       )}
     </div>
