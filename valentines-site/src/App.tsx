@@ -50,6 +50,13 @@ function App() {
 
       {page === 7 && (
         <div className="page">
+          <h1>Anyway...</h1>
+          <button onClick={() => setPage(8)}>Continue</button>
+        </div>
+      )}
+
+      {page === 7 && (
+        <div className="page">
           <h1>Thank you for being my friend for so long</h1>
           <button onClick={() => setPage(8)}>Continue</button>
         </div>
