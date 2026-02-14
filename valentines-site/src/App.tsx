@@ -55,21 +55,21 @@ function App() {
         </div>
       )}
 
-      {page === 7 && (
-        <div className="page">
-          <h1>Thank you for being my friend for so long</h1>
-          <button onClick={() => setPage(8)}>Continue</button>
-        </div>
-      )}
-
       {page === 8 && (
         <div className="page">
-          <h1>I do really appreciate you a lot</h1>
+          <h1>Thank you for being my friend for so long</h1>
           <button onClick={() => setPage(9)}>Continue</button>
         </div>
       )}
 
       {page === 9 && (
+        <div className="page">
+          <h1>I do really appreciate you a lot</h1>
+          <button onClick={() => setPage(10)}>Continue</button>
+        </div>
+      )}
+
+      {page === 10 && (
         <div className="page">
           <h1>Happy Valentine’s Day Shaina!❤️</h1>
         </div>
